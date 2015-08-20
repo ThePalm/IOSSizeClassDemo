@@ -1,0 +1,31 @@
+#####################
+# .gitignore_global
+#####################
+
+# OS X temporary files that should never be committed\
+
+.DS_Store
+*.Trashes
+*.swp
+
+###############
+# xcode files
+###############
+*.xcuserstate
+xcsettings
+xcuserdata
+profile
+*.pbxuser
+*.xccheckout
+!default.pbxuser
+
+###########
+# backup files
+###########
+*~.nib
+
+###########
+# AppCode IDEA
+###########
+.idea
+*.iml
